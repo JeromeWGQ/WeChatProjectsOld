@@ -1,0 +1,52 @@
+/* pages/index_map/index_map.wxss */
+.img-bg {
+    width: 100%;
+}
+
+.button-factory {
+    position: fixed;
+    top: 785rpx;
+    left: 508rpx;
+}
+
+.button-red {
+    position: fixed;
+    top: 30rpx;
+    left: 365rpx;
+}
+
+.button-hospital {
+    position: fixed;
+    top: 765rpx;
+    left: -38rpx;
+}
+
+.button-lake {
+    position: fixed;
+    top: 228rpx;
+    left: -84rpx;
+}
+
+.button-moon {
+    position: fixed;
+    top: 95rpx;
+    left: 130rpx;
+}
+
+.button-snow {
+    position: fixed;
+    top: 910rpx;
+    left: 450rpx;
+}
+
+.button-sleep {
+    position: fixed;
+    top: 935rpx;
+    left: 170rpx;
+}
+
+.button-china {
+    position: fixed;
+    top: 1000rpx;
+    left: -100rpx;
+}

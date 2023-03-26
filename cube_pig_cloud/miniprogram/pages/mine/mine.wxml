@@ -1,0 +1,29 @@
+<!--pages/mine/mine.wxml-->
+<text>\n\n\n\n欢迎使用，小程序持续更新中。\n点击右上角“添加到我的小程序”，方便下次使用。\n\n</text>
+
+<text>\n\n</text>
+
+<block wx:for="{{alg_sets_list}}" wx:key="big_title" wx:for-item="big_item">
+    <view class="form-group_label">
+        {{big_item.big_title}}
+    </view>
+    <view class="form-group">
+        <view class="form-cell" wx:for="{{big_item.sub_sets_list}}" wx:key="index" wx:for-item="small_item">
+            <view class="slide" bindtap="toDetailPage" data-id="{{small_item.title}}">
+                <image class="checkbox" src="{{small_item.img_url}}" />
+                <view class="todo-info">
+                    <view class="todo-info_title">{{small_item.title}}</view>
+                    <view class="todo-info_desc">{{small_item.desc}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>
+
+<text>\n</text>
+
+<button open-type='feedback'>意见反馈</button>
+
+<text>\n</text>
+
+<ad unit-id="adunit-bace5aed2c9d862d"></ad>

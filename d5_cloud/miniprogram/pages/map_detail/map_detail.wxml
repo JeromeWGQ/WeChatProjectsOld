@@ -1,0 +1,4 @@
+<!--pages/map_detail/map_detail.wxml-->
+<scroll-view scroll-x="true" scroll-y="true">
+    <image src="{{image_url}}" mode="widthFix"></image>
+</scroll-view>

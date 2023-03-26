@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Tencent\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-3g4ewhcb3f1250a7 --n quickstartFunctions --r --project "C:\Users\jerome\Documents\WeChatProjects\cube_pig_cloud" --report_first --report

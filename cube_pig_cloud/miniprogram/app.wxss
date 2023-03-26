@@ -1,0 +1,152 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+/* page {
+  background: -webkit-linear-gradient(top, #f6c9ec, #bdeee5);
+  background-attachment: fixed;
+} */
+
+/* ---------- */
+
+
+.all {
+  display: flex;
+
+  flex-direction: column;
+
+  width: 95%;
+}
+
+.one-row {
+  display: flex;
+
+  align-items: center;
+
+  align-content: center;
+
+  border-bottom: 1rpx solid rgb(221, 221, 221);
+
+  margin-bottom: 20rpx;
+}
+
+.case-desc {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  align-content: center;
+
+  width: 30%;
+}
+
+.case-pic {
+  width: 120px;
+
+  height: 120px;
+}
+
+.case-name {
+  color: grey;
+}
+
+.algs {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  width: 70%;
+}
+
+.alg-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  align-content: center;
+}
+
+.alg-detail-voted {
+  font-size: large;
+
+  width: 86%;
+
+  margin-top: 5rpx;
+
+  margin-bottom: 5rpx;
+
+  font-weight: bold;
+}
+
+.alg-detail-unvoted {
+  font-size: large;
+
+  width: 86%;
+
+  margin-top: 5rpx;
+
+  margin-bottom: 5rpx;
+
+  color: grey;
+}
+
+.thumb-pic {
+  width: 18px;
+
+  height: 18px;
+}
+
+.thumb-votes-selected {
+  color: #2396f3;
+
+  font-size: small;
+
+  width: 6%;
+
+  text-align: end;
+}
+
+.thumb-votes-unselected {
+  color: #9a9a9a;
+
+  font-size: small;
+
+  width: 6%;
+
+  text-align: end;
+}
+
+.group-name {
+  position: fixed;
+  top: 0%;
+  height: 12%;
+  width: 100%;
+  /* border-style: dotted;
+  border-width: 1rpx; */
+}
+
+.group-text {
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  /* border-style: dotted;
+  border-width: 1rpx; */
+}

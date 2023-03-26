@@ -1,0 +1,31 @@
+{
+    "pages": [
+        "pages/index_map/index_map",
+        "pages/index_about/index_about",
+        "pages/map_detail/map_detail"
+    ],
+    "window": {
+        "backgroundColor": "#a39e93",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#a39e93",
+        "navigationBarTitleText": "第五人格游戏地图",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#85705d",
+        "selectedColor": "#d2b190",
+        "backgroundColor": "#38281b",
+        "list": [
+            {
+                "pagePath": "pages/index_map/index_map",
+                "text": "地图"
+            },
+            {
+                "pagePath": "pages/index_about/index_about",
+                "text": "关于"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}

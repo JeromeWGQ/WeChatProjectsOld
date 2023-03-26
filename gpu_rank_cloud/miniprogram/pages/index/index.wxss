@@ -1,0 +1,56 @@
+/**index.wxss**/
+
+page {
+	padding-top: 54rpx;
+	background-color: #f6f6f6;
+	padding-bottom: 60rpx;
+}
+
+.environment {
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 24rpx;
+	margin-top: 25%;
+	margin-bottom: 100rpx;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.gpuFigure {
+	display: flex;
+
+	flex-direction: column;
+
+	width: 100%;
+}
+
+.gpuLine {
+	display: flex;
+
+	height: 10px;
+
+	justify-content: center;
+
+	align-items: center;
+
+	align-content: center;
+}
+
+.gpuItem {
+	display: flex;
+
+	width: 20%;
+
+	justify-content: center;
+
+	align-items: center;
+
+	align-content: center;
+}
+
+.gpuText {
+	display: flex;
+
+	word-wrap: none;
+
+	font-size: 12px;
+}

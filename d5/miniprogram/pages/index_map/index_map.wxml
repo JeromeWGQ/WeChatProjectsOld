@@ -1,0 +1,26 @@
+<image class="img-bg" mode="widthFix" src="../../pic/big_map_cut.jpg"></image>
+
+<button class="button-factory" bindtap="tap_map" data-id='map_factory'>
+    军工厂
+</button>
+<button class="button-red" bindtap="tap_map" data-id='map_red'>
+    红教堂
+</button>
+<button class="button-hospital" bindtap="tap_map" data-id='map_hospital'>
+    圣心医院
+</button>
+<button class="button-lake" bindtap="tap_map" data-id='map_lake'>
+    湖景村
+</button>
+<button class="button-moon" bindtap="tap_map" data-id='map_moon'>
+    月亮河公园
+</button>
+<button class="button-snow" bindtap="tap_map" data-id='map_snow'>
+    里奥的回忆
+</button>
+<button class="button-sleep" bindtap="tap_map" data-id='map_sleep'>
+    永眠镇
+</button>
+<button class="button-china" bindtap="tap_map" data-id='map_china'>
+    唐人街
+</button>

@@ -1,0 +1,37 @@
+{
+    "pages": [
+        "pages/index_alg/index_alg",
+        "pages/index_competition/index_competition",
+        "pages/index_about/index_about",
+        "pages/list_oll/list_oll",
+        "pages/list_pll/list_pll",
+        "pages/list_cmll/list_cmll"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "魔方猪",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#afb4db",
+        "selectedColor": "#181d4b",
+        "backgroundColor": "#feeeed",
+        "list": [{
+                "pagePath": "pages/index_alg/index_alg",
+                "text": "公式"
+            },
+            {
+                "pagePath": "pages/index_competition/index_competition",
+                "text": "日赛"
+            },
+            {
+                "pagePath": "pages/index_about/index_about",
+                "text": "关于"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}

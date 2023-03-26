@@ -1,0 +1,5 @@
+<movable-area class="m-area">
+    <movable-view class="m-view" direction="horizontal">
+        <image src="cloud://cloud1-8g12vli18e714a91.636c-cloud1-8g12vli18e714a91-1309079650/map_pic/sleep.jpg" style="width: 1398rpx; height: 1575rpx;"></image>
+    </movable-view>
+</movable-area>

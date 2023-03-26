@@ -1,0 +1,20 @@
+<!--pages/timer/timer.wxml-->
+<!-- <text>pages/timer/timer.wxml</text> -->
+
+<page bindtouchstart="handleTouchStart" bindtouchend="handleTouchEnd" bindtouchcancel="handleTouchCancel">
+
+    <text wx:if="{{!hideOthers}}" class="scramble-text">
+        {{scrambleText}}
+    </text>
+
+    <text class="time-number" style="color:{{timeNumberColor}}">
+        <text style="font-size: 150rpx;">{{bigDigit}}</text>
+        <text style="font-size: 120rpx;">{{smallDigit}}</text>
+    </text>
+
+    <image class="timer-cover" src="../../image/alpha.png" mode="scaleToFill">
+    </image>
+
+</page>
+
+<image wx:if="{{!hideOthers}}" bindtap="handleTouchPig" class="cube-pig" src="../../image/pig.png" mode="widthFix"></image>

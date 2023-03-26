@@ -1,0 +1,52 @@
+/* pages/list/list.wxss */
+page {
+    background: -webkit-linear-gradient(top, #f6c9ec, #bdeee5);
+    background-attachment: fixed;
+}
+
+.list-scroll-view {
+    position: fixed;
+    top: 12%;
+    height: 88%;
+}
+
+.list-view {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.time-card {
+    /* 横向共有750rpx */
+    width: 218rpx;
+    margin-left: 24rpx;
+
+    height: 102rpx;
+    margin-top: 24rpx;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-bg {
+    height: 2rpx;
+}
+
+.time-card-image {
+    width: 218rpx;
+    height: 102rpx;
+}
+
+.time-card-text-date {
+    text-align: center;
+    color: grey;
+    width: 40%;
+    height: 30rpx;
+    font-size: 20rpx;
+}
+
+.time-card-text-result {
+    text-align: center;
+    width: 100%;
+    font-size: 32rpx;
+    font-weight: bold;
+}

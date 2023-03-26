@@ -1,0 +1,27 @@
+<!--pages/alg_list/alg_list.wxml-->
+
+<view class="all">
+    <view class="one-row" wx:for="{{alg_list}}" wx:key="index" wx:for-item="bigItem">
+
+        <view class="case-desc">
+            <image lazy-load class="case-pic" src="{{bigItem.alg_src}}" />
+            <view class="case-name">{{bigItem.alg_name}}</view>
+        </view>
+
+        <view class="algs">
+            <view class="alg-row" wx:for="{{bigItem.alg_detail_list}}" wx:key="index" bindtap="onClickAlg" data-id="{{[bigItem.index,index]}}">
+
+                <view wx:if="{{index==bigItem.vote_index}}" class="alg-detail-voted">{{item.alg}}</view>
+                <view wx:else class="alg-detail-unvoted">{{item.alg}}</view>
+
+                <image wx:if="{{index==bigItem.vote_index}}" class="thumb-pic" src="../../images/thumb/thumb_blue.png"></image>
+                <image wx:else class="thumb-pic" src="../../images/thumb/thumb_grey.png"></image>
+
+                <view wx:if="{{index==bigItem.vote_index}}" class="thumb-votes-selected">{{item.votes + 1}}</view>
+                <view wx:else class="thumb-votes-unselected">{{item.votes}}</view>
+
+            </view>
+        </view>
+
+    </view>
+</view>

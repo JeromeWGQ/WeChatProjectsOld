@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+
+    <view class="gpuFigure">
+        <view class="gpuLine" wx:for="{{gpuData}}" wx:for-item="line">
+            <view class="gpuItem" wx:for="{{line}}" wx:for-item="element">
+                <text class="gpuText" style="color: {{element.color}};">{{element.name}}</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="environment">
+        <text>
+            {{loading}}数据持续更新中。
+        </text>
+        <text>
+            本天梯图数据由网友共建，尽可能保证数据准确，点击任一GPU型号可给出您宝贵的意见。
+        </text>
+        <text bindtap="copyNumber">
+            {{welcome}}欢迎分享本小程序。点击右上角“添加到我的小程序”，方便下次使用。
+        </text>
+    </view>
+
+    <ad unit-id="adunit-f99b816413255857"></ad>
+
+</view>

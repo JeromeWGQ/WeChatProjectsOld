@@ -1,0 +1,20 @@
+<!--pages/list/list.wxml-->
+
+<view wx:if="{{!hideOthers}}" class="group-name">
+    <image src="../../image/group-name-bg.png" style="height: 100%;width: 100%;">
+        <text class="group-text">三阶速拧</text>
+    </image>
+</view>
+
+<!-- 展示成绩列表，目前limit 180 -->
+<scroll-view class="list-scroll-view" scroll-y="true">
+    <view class="list-view">
+        <view class="time-card" wx:for="{{times_list}}" wx:key="create_time" bindtap="tapCard" data-set="{{item}}">
+            <view class="card-bg">
+                <image class="time-card-image" src="../../image/result-bg.png" mode="scaleToFill"></image>
+            </view>
+            <text class="time-card-text-date">{{item.show_time}}</text>
+            <text class="time-card-text-result">{{item.show_result}}</text>
+        </view>
+    </view>
+</scroll-view>

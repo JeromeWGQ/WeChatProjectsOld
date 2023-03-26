@@ -1,0 +1,19 @@
+<!--pages/index_alg/index_alg.wxml-->
+<wxs module="util" src="../util.wxs" />
+
+<block wx:for="{{alg_sets_list}}" wx:key="big_title" wx:for-item="big_item">
+    <view class="form-group_label">
+        {{big_item.big_title}}
+    </view>
+    <view class="form-group">
+        <view class="form-cell" wx:for="{{big_item.sub_sets_list}}" wx:key="index" wx:for-item="small_item">
+            <view class="slide" bindtap="toDetailPage" data-id="{{small_item.title}}">
+                <image class="checkbox" src="{{small_item.img_url}}" />
+                <view class="todo-info">
+                    <view class="todo-info_title">{{small_item.title}}</view>
+                    <view class="todo-info_desc">{{small_item.desc}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

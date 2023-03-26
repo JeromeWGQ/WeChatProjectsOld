@@ -1,0 +1,48 @@
+/* pages/timer/timer.wxss */
+page {
+    background: -webkit-linear-gradient(top, #f6c9ec, #bdeee5);
+    height: 100%;
+}
+
+.scramble-text {
+    position: fixed;
+    text-align: center;
+    top: 15%;
+    left: 40rpx;
+    right: 40rpx;
+    font-size: larger;
+    /* border-style: dotted;
+    border-width: 1rpx; */
+}
+
+.time-number {
+    position: fixed;
+    text-align: center;
+    top: 45%;
+    left: 0;
+    right: 0;
+    /* border-style: dotted;
+    border-width: 1rpx; */
+}
+
+.timer-cover {
+    /* position: fixed; */
+    /* top: 1%; */
+    width: 100%;
+    height: 99%;
+    /* height: 100%; */
+}
+
+.cube-pig {
+    position: fixed;
+    width: 35%;
+    left: 5%;
+    top: 85%;
+    border-style: dotted;
+    border-width: 1rpx;
+}
+
+/* 
+.m-view {
+    background: -webkit-linear-gradient(top, #f6c9ec, #bdeee5)
+} */

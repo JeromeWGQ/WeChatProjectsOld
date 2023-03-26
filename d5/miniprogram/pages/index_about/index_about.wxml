@@ -1,0 +1,6 @@
+<!--pages/index_about/index_about.wxml-->
+<text>欢迎使用，地图上的文字都是可以点击的哦</text>
+<text>小程序持续更新中</text>
+<button open-type='feedback'>意见反馈</button>
+
+<ad unit-id="adunit-e43c369d78cefe2f"></ad>

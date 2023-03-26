@@ -1,0 +1,11 @@
+{
+    "pages": [
+        "pages/timer/timer",
+        "pages/detail/detail"
+    ],
+    "window": {
+        "navigationStyle": "custom"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
